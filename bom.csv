@@ -1,0 +1,4 @@
+"Reference","Value","Footprint","Datasheet","Description","Qty","#","Sim.Pins"
+"BT1","Battery_Cell","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","","","1","",""
+"D1","LED","LED_THT:LED_D3.0mm","","","1","",""
+"R1,R2","100","Resistor_SMD:R_0805_2012Metric","","","2","",""

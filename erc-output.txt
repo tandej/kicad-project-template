@@ -1,0 +1,17 @@
+ERC report (2025-02-04T21:11:23+0000, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Device'
+    ; warning
+    @(142.24 mm, 96.52 mm): Symbol R2 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Device'
+    ; warning
+    @(142.24 mm, 105.41 mm): Symbol D1 [LED]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Device'
+    ; warning
+    @(142.24 mm, 93.98 mm): Symbol R1 [R]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Device'
+    ; warning
+    @(120.65 mm, 101.60 mm): Symbol BT1 [Battery_Cell]
+
+ ** ERC messages: 4  Errors 0  Warnings 4

@@ -1,0 +1,10 @@
+** Drc report for kicad-project-template.kicad_pcb **
+** Created on 2025-02-04T21:11:24+0000 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
