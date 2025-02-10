@@ -1,4 +1,4 @@
-ERC report (2025-02-04T21:11:23+0000, Encoding UTF8)
+ERC report (2025-02-10T19:59:06+0000, Encoding UTF8)
 
 ***** Sheet /
 [lib_symbol_issues]: The current configuration does not include the symbol library 'Device'
