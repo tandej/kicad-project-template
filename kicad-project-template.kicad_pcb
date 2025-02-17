@@ -124,7 +124,7 @@
 	(property "AUTHOR" "Asa Anderson")
 	(property "BOARD_REV" "1.0")
 	(property "BOARD_REV_DATE" "Feb 3 2025")
-	(property "GIT_SHORTHASH" "PLACEHOLDER")
+	(property "GIT_SHORTHASH" "SH_PLHD")
 	(property "PROJECT_GIT" "github.com/tandej/kicad-project-template")
 	(property "SCH_REV" "1.0")
 	(property "SCH_REV_DATE" "Feb 3 2025")
