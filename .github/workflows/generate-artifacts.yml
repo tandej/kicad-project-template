@@ -1,4 +1,4 @@
-name: generate-pcb-output-site
+name: generate-artifacts
 on:
   push:
     branches:
@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Replace Commit Hash
+        run: sed -i -s -e "s/'"GIT_SHORTHASH": "PLACEHOLDER"'/$(git rev-parse --short "$GITHUB_SHA")/" kicad-project-template.kicad_pro
       - name: Run Jobset
         run: kicad-cli jobset run --file=generate-artifacts.kicad_jobset kicad-project-template.kicad_pro
       - name: Zip Gerbers

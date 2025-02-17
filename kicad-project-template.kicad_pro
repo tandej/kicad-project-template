@@ -1232,6 +1232,7 @@
     "AUTHOR": "Asa Anderson",
     "BOARD_REV": "1.0",
     "BOARD_REV_DATE": "Feb 3 2025",
+    "GIT_SHORTHASH": "PLACEHOLDER",
     "PROJECT_GIT": "github.com/tandej/kicad-project-template",
     "SCH_REV": "1.0",
     "SCH_REV_DATE": "Feb 3 2025"

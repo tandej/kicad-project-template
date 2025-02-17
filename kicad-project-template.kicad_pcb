@@ -124,6 +124,7 @@
 	(property "AUTHOR" "Asa Anderson")
 	(property "BOARD_REV" "1.0")
 	(property "BOARD_REV_DATE" "Feb 3 2025")
+	(property "GIT_SHORTHASH" "PLACEHOLDER")
 	(property "PROJECT_GIT" "github.com/tandej/kicad-project-template")
 	(property "SCH_REV" "1.0")
 	(property "SCH_REV_DATE" "Feb 3 2025")
@@ -1049,7 +1050,7 @@
 	)
 	(gr_rect
 		(start 138.75 96)
-		(end 164.25 109.75)
+		(end 164.25 111)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1058,8 +1059,8 @@
 		(layer "Edge.Cuts")
 		(uuid "02a06418-5310-43df-98c5-41e363b71092")
 	)
-	(gr_text "${PROJECTNAME}\n${BOARD_REV}\n${BOARD_REV_DATE}\n${PROJECT_GIT}"
-		(at 139 109.5 0)
+	(gr_text "${PROJECTNAME}\n${BOARD_REV}\n${BOARD_REV_DATE}\n${PROJECT_GIT}\n${GIT_SHORTHASH}"
+		(at 139 110.75 0)
 		(layer "F.SilkS")
 		(uuid "ed4b464c-3b48-4e67-aac9-e267f7e70a21")
 		(effects
@@ -1084,7 +1085,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "${PROJECT_GIT}"
+	(gr_text "${PROJECT_GIT}\n${GIT_SHORTHASH}"
 		(at 284.75 181.75 0)
 		(layer "Cmts.User")
 		(uuid "41c23a64-bf3c-45a8-967f-3cc3c5276676")
@@ -1098,7 +1099,7 @@
 		)
 	)
 	(gr_text "${AUTHOR}"
-		(at 285 183.5 0)
+		(at 284.75 184.5 0)
 		(layer "Cmts.User")
 		(uuid "4bb4bf1e-9d47-499b-8f46-6626a682987e")
 		(effects

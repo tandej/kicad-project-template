@@ -503,7 +503,7 @@
 	)
 	(text "${AUTHOR}"
 		(exclude_from_sim no)
-		(at 284.734 189.738 0)
+		(at 284.734 185.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -537,9 +537,9 @@
 		)
 		(uuid "afd63a8f-cfa7-4a09-a679-938b3bb8b274")
 	)
-	(text "${PROJECT_GIT}"
+	(text "${PROJECT_GIT}\n${GIT_SHORTHASH}"
 		(exclude_from_sim no)
-		(at 284.734 187.96 0)
+		(at 284.734 182.118 0)
 		(effects
 			(font
 				(size 1.27 1.27)
