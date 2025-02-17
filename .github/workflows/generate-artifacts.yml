@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Replace Commit Hash
-        run: sed -i -s -e "s/'"GIT_SHORTHASH": "PLACEHOLDER"'/$(git rev-parse --short "$GITHUB_SHA")/" kicad-project-template.kicad_pro
+        run: sed -i -s -e "s/"SH_PLHD"/$(git rev-prase --short '$GITHUB_SHA')/" kicad-project-template.kicad_pro
       - name: Run Jobset
         run: kicad-cli jobset run --file=generate-artifacts.kicad_jobset kicad-project-template.kicad_pro
       - name: Zip Gerbers
