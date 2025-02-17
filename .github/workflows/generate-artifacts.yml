@@ -17,7 +17,7 @@ jobs:
       - name: Git rev-parse Workaround
         run: git config --global --add safe.directory "*"
       - name: Replace Commit Hash
-        run: sed -i -s -e "s/"SH_PLHD"/$(git rev-parse --short ${{ github.sha }}')/" kicad-project-template.kicad_pro
+        run: sed -i -s -e "s/"SH_PLHD"/$(git rev-parse --short ${{ github.sha }})/" kicad-project-template.kicad_pro
       - name: Run Jobset
         run: kicad-cli jobset run --file=generate-artifacts.kicad_jobset kicad-project-template.kicad_pro
       - name: Zip Gerbers
