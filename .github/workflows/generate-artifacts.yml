@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Git rev-parse Workaround
-        run: git config --local --add safe.directory "*"
+        run: git config --global --add safe.directory "*"
       - name: Replace Commit Hash
         run: sed -i -s -e "s/"SH_PLHD"/$(git rev-parse --short '$GITHUB_SHA')/" kicad-project-template.kicad_pro
       - name: Run Jobset
